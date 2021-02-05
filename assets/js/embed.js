@@ -1,5 +1,5 @@
 const tag1 =
-  '';
+  'mtf';
 const tag2 =
   '';
 const hDiv = document.getElementById("top-news");
