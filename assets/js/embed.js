@@ -1,8 +1,6 @@
-const tag1 =
-  'mtf';
-const tag2 =
-  '';
-const hDiv = document.getElementById("top-news");
+const hDiv = document.querySelector(".under-slider");
 if (hDiv) {
-  hDiv.innerHTML = tag1 + tag2;
+  let p = document.createElement('p');
+  p.innerHTML = 'mtf';
+  hDiv.prepend(p);
 }
