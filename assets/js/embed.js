@@ -1,9 +1,7 @@
 
-hDiv = document.querySelector(".wraper .header a");
-console.log(hDiv);
+hDiv = document.querySelector(".under-slider");
 if (hDiv) {
   let p = document.createElement('p');
-  p.innerHTML = 'mmm';
-  hDiv.innerHTML = '';
+  p.innerHTML = 'mtf';
   //hDiv.prepend(p);;
 }
