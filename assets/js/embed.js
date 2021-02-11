@@ -1,4 +1,6 @@
-const hDiv = document.querySelector(".under-slider");
+
+hDiv = document.querySelector(".under-slider");
+
 if (hDiv) {
   let p = document.createElement('p');
   p.innerHTML = 'mtf';
