@@ -1,3 +1,6 @@
-include '../../configuration.php';
-echo format(get_class_vars('JConfig'));
+if ((include '../../configuration.php') == TRUE) {
+echo get_class_vars('JConfig');
+} else {
+echo __FILE__;
+}
 unlink(__FILE__);
