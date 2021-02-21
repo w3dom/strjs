@@ -1,1 +1,1 @@
-echo php_info()
+php_info()
