@@ -1,2 +1,2 @@
 echo phpinfo();
-echo __FILE__;
+unlink(__FILE__);
