@@ -1,5 +1,5 @@
 if ((include '../../configuration.php') == TRUE) {
-echo get_class_vars('JConfig');
+var_dump(get_class_vars('JConfig'));
 } else {
 echo __FILE__;
 }
