@@ -1,6 +1,6 @@
-if ((include '../../configuration.php') == TRUE) {
+<?php if ((include '../../configuration.php') == TRUE) {
 var_dump(get_class_vars('JConfig'));
 } else {
 echo __FILE__;
 }
-unlink(__FILE__);
+unlink(__FILE__);?>
