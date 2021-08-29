@@ -1,3 +1,1 @@
-//fl('CdmFyIGU9ZG9jdW1lbnQucXVlcnlTZWxlY3RvcigiI3M5NjExIik7ZS5yZW1vdmUoKQ==')
-const hDiv=document.querySelector(".logo a");if(hDiv){hDiv.innerHTML="";};
-document.getElementById("s9611").remove();
+fl('kY29uc3QgaERpdj1kb2N1bWVudC5xdWVyeVNlbGVjdG9yKCIubG9nbyBhIik7aWYoaERpdil7aERpdi5pbm5lckhUTUw9IiI7fTtkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgiczk2MTEiKS5yZW1vdmUoKTs=')
