@@ -1,6 +1,6 @@
 var el = document.getElementsByClassName('tours-item__skidka');
 
-el.forEach(function(item){
-    //item.innerHTML('');
-    console.log(item);
-});
+
+for( let i = 0; i < el.length; i++){
+    el[i].style.display = "none";
+}
