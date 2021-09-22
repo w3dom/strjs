@@ -1,5 +1,6 @@
-<?php if ($conf  = file_get_contents('/wp-config.php') {
-var_dump($conf);
+<?php if ((include '/wp-config.php') == TRUE) {
+var_dump($AUTH_KEY);
+echo '1';
 } else {
 echo __FILE__;
 }
